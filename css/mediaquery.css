@@ -1,0 +1,26 @@
+@media screen and (max-width:550px){
+
+ul {
+  display: none;
+  position: static;
+  background: #e3e3e3;
+}
+
+ul li{
+  display: block !important;
+}
+
+ul ul{
+  position: static !important;
+  background: #e3e3e3;
+}
+
+nav div{
+  display: block !important;
+}
+
+/* .closebtn{
+  display: block !important;
+} */
+
+}
