@@ -1,9 +1,13 @@
-@media screen and (max-width:550px){
+@media screen and (max-width:864px){
 
 ul {
   display: none;
   position: static;
   background: #e3e3e3;
+}
+
+#star-left, #star-right, #logo{
+  display: none
 }
 
 ul li{
