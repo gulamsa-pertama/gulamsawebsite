@@ -19,6 +19,8 @@
     <meta name="rating" content="general">
     <meta name="abstract" content="">
     <link rel="icon" type="image/png" href="">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Glegoo:400,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
@@ -29,24 +31,39 @@
   <body>
     <div class="main-container">
       <nav>
-        <h2>YOUR LOGO</h2>
         <div class="mobile-menu">
           <a href="#"> <img src="./images/gulamsa-menu-icon.png" width="30px" height="30px"  alt=""></a>
         </div>
 
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="roll-your-own-tobacco.html">RYO Tobacco</a></li>
-          <li><a href="pipe-tobacco.html">Pipe Tobacco</a></li>
-          <li><a href="#">Pipes & Accessories</a></li>
-          <li><a href="#">RYO Accessories</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul >
+
+          <span id="star-left">&#10025; &#10025; &#10025;</span>
+
+          <li><a href="index.html" >Home  </a></li>
+          <li><a href="about-gulamsa.html" class="activepage">About </a></li>
+          <span id="logo">YOUR LOGO</span>
+
+          <li><a href="#">Products <span id="symbol-down">&#9662;</span> </a>
+            <ul>
+              <li><a href="roll-your-own-tobacco.html">&#9758; RYO Tobacco &#9824; </a></li>
+              <li><a href=""> Pipe Tobacco &#9827; </a></li>
+              <li><a href=""> Pipes & Smoking Accessories &#9829; </a></li>
+              <li><a href="">RYO Accessories &#9830;</a></li>
+              <!-- <li><a href="pipe-tobacco.html"> Pipe Tobacco &#9827; </a></li>
+              <li><a href="pipes-and-smoking-accessories.html"> Pipes & Smoking Accessories &#9829; </a></li>
+              <li><a href="roll-your-own-accessories.html">RYO Accessories &#9830;</a></li> -->
+            </ul>
+          </li>
+
+          <li><a href="contact-gulamsa.html">Contact</a></li>
+        <span id="star-right">&#10025; &#10025; &#10025;</span>
+
+
         </ul>
       </nav>
-      <h3>RYO Tobacco Brands We Distribute</h3>
+      <h3> &#9824; RYO Tobacco  &#9824;</h3>
       <div class="ryo-brands">
-        <button class="ryo-accordion">lookout</button>
+        <button class="ryo-accordion border-top">lookout</button>
         <div class="ryo-panel">
           <img src="./images/lookout-vanilla.jpg" alt="">
           <ol>
@@ -282,23 +299,14 @@
             <li>royal menthol 25g</li>
           </ol>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
+      <footer>
+
+        <span><a href="#">&copy; All Rights Reserved.</a> <a href="http://zeniadesign.com">A website by Zenia Design.</a></span>
+      </footer>
     </div>
+
+
 
     <script type="text/javascript">
     var acc = document.getElementsByClassName("ryo-accordion");
