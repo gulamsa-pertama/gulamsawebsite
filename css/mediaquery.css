@@ -1,9 +1,21 @@
-@media screen and (max-width:864px){
+@media screen and (max-width:870px){
+
+.mobile-menu{
+  background: white;
+  border-top: 2px solid #5e0c0b;
+  border-bottom: 2px solid #5e0c0b;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100% !important
+
+}
 
 ul {
   display: none;
   position: static;
-  background: #e3e3e3;
+  background: white !important ;
 }
 
 #star-left, #star-right, #logo{
@@ -16,7 +28,7 @@ ul li{
 
 ul ul{
   position: static !important;
-  background: #e3e3e3;
+  background: white;
 }
 
 nav div{
